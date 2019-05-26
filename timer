@@ -1,0 +1,9 @@
+#!/bin/sh
+while true ; do
+	/bin/sleep 1
+	cd ~/xporp
+	rm -rf cmd
+	touch cmd
+	bash '/home/han/xporp/gnome.sh' 
+	bash '/home/han/xporp/kde.sh' 
+done
