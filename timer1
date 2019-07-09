@@ -3,7 +3,7 @@
 #cd /home/han/xporp
 while :
 do
-#/bin/sleep 0.01
+/bin/sleep 0.5
 a=-11
 b=0
 c=0
